@@ -31,4 +31,4 @@ urlpatterns = [
     path('api/todo-delete/<int:pk>', views.todoDelete, name="todo-delete"),
 ]
 
-urlpatterns = format_suffix_patterns(urlpatterns)
+urlpatterns = format_suffix_patterns(urlpatterns) # djangorestframework
